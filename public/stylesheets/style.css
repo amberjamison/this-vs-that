@@ -1,0 +1,78 @@
+body {
+  color: #FFF;
+  background: #333;
+  font-family: 'Ubuntu', sans-serif;
+}
+.header h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+h1 {
+  font-size: 150%;
+}
+h1, h2, h6 {
+  text-align: center;
+}
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left-holder {
+  position: absolute;
+  height: 100px;
+  left: 0;
+  right: 50%;
+  color: #333;
+}
+.right-holder {
+  position: absolute;
+  height: 100px;
+  right: 0;
+  left: 50%;
+}
+
+#quality {
+  top: 100px;
+  background: #67AAFF;
+}
+#quantity {
+  top: 100px;
+  background: #FF6772;
+}
+
+#apples {
+  top: 200px;
+  background: #DDFB5C;
+}
+#oranges {
+  top: 200px;
+  background: #DD9056;
+}
+
+#good {
+  top: 300px;
+  background: #66FF99;
+}
+#bad {
+  top: 300px;
+  background: #669999;
+}
+
+#day {
+  top: 400px;
+  background: #B4DCF2;
+}
+#night {
+  top: 400px;
+  background: #666699;
+}
+
+#left {
+  top: 500px;
+  background: #FFFF99;
+}
+#right {
+  top: 500px;
+  background: #8C9AD4;
+}

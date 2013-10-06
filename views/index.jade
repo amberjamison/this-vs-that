@@ -1,0 +1,52 @@
+doctype 5
+html
+    head
+        title This vs That
+        link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Ubuntu')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        script(src="http://code.jquery.com/jquery-2.0.3.min.js")
+        script(src="components/socket.io-client/dist/socket.io.min.js")
+        script(src="https://rawgithub.com/DmitryBaranovskiy/raphael/4db4fec6ab06a49aab8c4f3d2f280c6ce9466f41/raphael-min.js")
+        script(src="https://rawgithub.com/Valve/g.raphael-radar/master/g.radar.min.js")
+        script(src="/javascripts/script.js")
+    body
+        .container
+            .header
+                h1 This vs That
+                h6 Last updated:
+                        span(id="last-update") Never
+        #quality.left-holder
+            h1 QUALITY
+                h2 #{data.symbols.quality}
+           
+        #quantity.right-holder
+            h1 QUANTITY
+                h2 #{data.symbols.quantity}
+
+        #apples.left-holder
+            h1 APPLES
+                h2 #{data.symbols.quality}
+        #oranges.right-holder
+            h1 ORANGES
+                h2 #{data.symbols.quantity}
+
+        #good.left-holder
+            h1 GOOD
+                h2 #{data.symbols.quality}
+        #bad.right-holder
+            h1 BAD
+                h2 #{data.symbols.quantity}
+
+        #day.left-holder
+            h1 DAY
+                h2 #{data.symbols.quality}
+        #night.right-holder
+            h1 NIGHT
+                h2 #{data.symbols.quantity}
+
+        #left.left-holder
+            h1 LEFT
+                h2 #{data.symbols.quality}
+        #right.right-holder
+            h1 RIGHT
+                h2 #{data.symbols.quantity}
